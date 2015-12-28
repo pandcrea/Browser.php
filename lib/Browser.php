@@ -3,7 +3,7 @@
 /**
  * File: Browser.php
  * Author: Chris Schuld (http://chrisschuld.com/)
- * Last Modified: July 4th, 2014
+ * Last Modified: December 28th, 2015
  * @version 1.9
  * @package PegasusPHP
  *
@@ -110,7 +110,7 @@ class Browser
 
     const OPERATING_SYSTEM_UNKNOWN = 'unknown';
 
-    public function Browser($userAgent = "")
+    public function __construct($userAgent = "")
     {
         $this->reset();
         if ($userAgent != "") {
