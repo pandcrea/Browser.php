@@ -1,5 +1,5 @@
 {
-    "name": "cbschuld/browser.php",
+    "name": "pandcrea/browser.php",
     "description": "",
     "version": "1.0.0",
     "keywords": ["browser", "user agent", "detection"],
@@ -10,6 +10,11 @@
             "name": "Chris Schuld",
             "email": "chris@chrisschuld.com",
             "homepage": "http://chrisschuld.com"
+        },
+        {
+            "name": "Patrik Panda",
+            "email": "patrik@pandacreative.se",
+            "homepage": "http://http://pandacreative.se/"
         }
     ],
     "autoload": {
